@@ -34,7 +34,8 @@ Responsable de recursos humanos de las empresas.
 - La página web debe ser responsive, principal uso desde el móvil
 
 ## 6. Business Rules
--
+- Si no hay foto substituir por el nombre
+- Al hacer clic sobre cualquier enlace abre una nueva pestaña
 
 ## 7. User Flow
 1. Alumno rellena información

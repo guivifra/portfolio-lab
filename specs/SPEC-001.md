@@ -10,17 +10,15 @@
 Necesitamos mejorar los elementos que envian los alumnos a RRHH para realizar las pràcticas. Canviar currículums y enlaces a repositorios por pàgina web tipo portfolio.
 
 ## 2. Goal
-Plantilla web donde los alumnos puedan rellenar sus datos para crear su portfolio. En la página web se debe ver quién es, los proyectos que ha hecho, con qué ha trabajado y cómo contactarle.
-Puedes ver un ejemplo de datos de alumnos en data/profile.json y un ejemplo de como registrar los proyectos del portfolio en data/projects.json. Además puedes ver un ejemplo la foto de perfil del alumnado y como se deberían ver los diferents projectos en el portfoliio.
+Página web donde las empresas puedan ver mis datos y portfolio. Tienes mis datos data/profile.json y los proyectos del portfolio en data/projects.json. Además mi foto de perfil está en assets, en la misma carpeta puedes ver ejemplos de como crear cada página de proyecto.
 
 ## 3. Users
 Alumnos que vayan a realizar las pràcticas de empresa.
-Responsable de recursos humanos de las empresas.
 
 ## 4. Scope
 
 ### In scope
-- Imagen y nombre del proyecto, tecnologias utilizadas y enlace al repositorio.
+- 
 
 ### Out of scope
 -
@@ -38,9 +36,9 @@ Responsable de recursos humanos de las empresas.
 - Al hacer clic sobre cualquier enlace abre una nueva pestaña
 
 ## 7. User Flow
-1. Alumno rellena información
-2. Centro envia web a empresa
-3. Empresa revisa la web
+1. 
+2. 
+3. 
 
 ## 8. Acceptance Criteria
 - [ ]

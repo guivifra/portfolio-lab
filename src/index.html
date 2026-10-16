@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Alex — Desarrollador multiplataforma en formación">
+  <title>Alex · Portfolio</title>
+
+  <!-- Tipografías del diseño: Geist (texto) y Geist Mono (datos) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <!-- Enlace de salto al contenido: primer elemento enfocable (DESIGN-001 §6) -->
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="site-header__inner container">
+      <a class="site-header__identity" href="#contenido">Alex</a>
+      <nav class="site-nav" aria-label="Navegación principal">
+        <ul class="site-nav__list">
+          <li><a href="#perfil">Perfil</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido" class="container">
+    <!-- Perfil -->
+    <section id="perfil" class="section" aria-labelledby="perfil-titulo">
+      <p class="section__kicker">Perfil</p>
+      <h1 id="perfil-titulo" class="hero__title">Alex</h1>
+      <p class="hero__lede">Desarrollador multiplataforma en formación · 2.º de DAM</p>
+      <!-- El contenido completo se cargará desde data/profile.json en tareas posteriores -->
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="section" aria-labelledby="proyectos-titulo">
+      <p class="section__kicker">Proyectos</p>
+      <h2 id="proyectos-titulo" class="section__title">Proyectos</h2>
+      <!-- El listado se cargará desde data/projects.json en tareas posteriores -->
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section" aria-labelledby="contacto-titulo">
+      <p class="section__kicker">Contacto</p>
+      <h2 id="contacto-titulo" class="section__title">Contacto</h2>
+      <!-- Los enlaces de contacto se cargarán desde data/profile.json en tareas posteriores -->
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="site-footer__note">Portfolio · Alex</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
